@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- This website was created by Kyle Malice for his final project in intro to web development. -->
+<html lang="en">
+<head>
+    <title>Kyle's Final/Forward Fitness Club</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="container">
+
+        <!-- Mobile Nav -->
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </nav>
+
+        <!-- Use header area for the website name or logo-->
+        <header id="ffc-logo">
+            <a href="index.html"><img src="images/mclogo.jpg" alt="<Motorcycle logo"></a>
+        </header>
+
+        <!-- Tablet, Desktop Nav -->
+       
+        <nav class="tablet-desktop">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- classes hero image -->
+        <div id="hero" class="tablet-desktop">
+            <img src="images/hero-image.jpg" alt="Motorcycle hero image">
+        </div>
+
+        <!-- Use the main area to add the main content of the page -->
+        <main>
+
+            <div class="mobile">
+
+                <h3>Services Offered at our shop:</h3>
+                <p>Tire Changes</p>
+                <p>Oil Changes</p>
+                <p>Body Work7:15pm</p>
+                <p>Restoration Work</p>
+                <p>Sales</p>
+                <p>Financing</p>
+
+            </div>
+
+            <div class="desktop">
+
+                <table> <!-- Start Table -->
+                    <caption> Service Pricing Starting At: </caption> <!--Table title-->
+                    <tr><!-- Row 1 (row headings) -->
+                        <th>Service</th>
+                        <th>Days</th>
+                        <th>Time</th>
+                        <th>Price</th>
+                    
+                    </tr>
+                    <tr><!-- Row 2 -->
+                        <td>Tire Changes</td>
+                        <td>Mon, Tue, Wed,Thur, Fri</td>
+                        <td>30-45 min</td>
+                        <td>$49.99</td>
+                        
+                    </tr>
+                    <tr><!-- Row 3 -->
+                        <td>Oil Changes</td>
+                        <td>Mon, Tue, Wed,Thur, Fri</td>
+                        <td>30-45 min</td>
+                        <td>$32.99</td>
+                        
+                    </tr>
+                    <tr><!-- Row 4 -->]
+                        <td>Bodywork</td>
+                        <td>Tue, Thur</td>
+                        <td> Drop Off </td>
+                        <td>N/A</td>
+                     
+                    </tr>
+                    <tr><!-- Row 5 -->]
+                        <td>Restoration Work</td>
+                        <td>Mon, Wed</td>
+                        <td>Drop Off</td>
+                        <td>$99.99</td>
+                        
+                    </tr>
+                    <tr><!-- Row 6 -->]
+                        <td>Sales</td>
+                        <td>Everyday</td>
+                        <td>6:00am - 6:00pm</td>
+                        <td>N/A</td>
+                        
+                    </tr>
+                    
+                </table><!-- End Table -->
+
+            </div>
+
+            <div id="music-sample">
+
+                <h3>We play upbeat music in our sitting room for you to enjoy while you wait for your motorcycle. </h3>
+                <audio controls>
+                    <source src="Media/ffc_audio.mp3">
+                    <source src="Media/ffc_audio.ogg">
+                    <p>Your browser does not support the audio element.</p>
+                </audio>
+
+            </div>
+
+        </main>
+
+        <!-- Use the footer are to add a webpage footer -->
+        <footer>
+            <p>&copy; Copyright 2023. All rights Reserved. </p>
+            <p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
+        </footer>
+
+    </div>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>

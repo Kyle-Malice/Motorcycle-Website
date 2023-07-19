@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- This contact page was created by Kyle Malice-->
+<html lang="en">
+<head>
+    <title>Kyle's Portfolio: Contact me</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="container">
+
+        <!-- Mobile Nav -->
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About us</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </nav>
+
+        <!-- Use the header area for the website name and logo -->
+        <header id="ffc-logo">
+            <a href="index.html"><img src="images/mclogo.jpg" alt="Motorcycle Shop logo"></a>
+        </header>
+
+
+        <!-- Tablet, Desktop Nav -->
+        <!-- Use the nav area to add hyperlinks to other pages within the website -->
+        <nav class="tablet-desktop">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Use the main area to add the main content of the page -->
+        <main>
+            <div id="contact">
+
+                <h2>Need to get in touch? Contact us here:</h2>
+                <h4 class="mobile tel-link"> Call me: <a href="tel:3307197777">(330) 719-7777</a></h4>
+                <h4 class="tablet-desktop tel-num">(330) 719-7777</h4>
+                <h4>Email me: <a href="mailto:motoshop@gmail.com" class="contact-email-link">motoshop@gmail.com</a></h4>
+                <h4>Visit Our shop at: 1200 E Summit St, Kent, OH 44240</h4>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.433939309178!2d-81.35015248465449!3d41.14688161883307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8831252e371d8a73%3A0xe816ae08cd82a8e6!2sSchwartz%20Center%2C%20800%20E%20Summit%20St%2C%20Kent%2C%20OH%2044240!5e0!3m2!1sen!2sus!4v1677366211433!5m2!1sen!2sus" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+            </div>
+
+            <div id="form">
+
+                <h2>Complete the form below to get in touch with one of our representatives: </h2>
+
+                <form> <!-- Start form-->
+
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label for="fName"> First Name: </label>
+                        <input type="text" id="fName" name="fName" required>
+
+                        <label for="lName">Last Name: </label>
+                        <input type="text" id="lName" name="lName" required>
+
+                        <label for="email">Email Address: </label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Phone Number: </label>
+                        <input type="tel" id="phone" name="phone" required>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional Information</legend>
+                        <p>I am contacting you regarding: </p>
+
+                        <label for="question"><input type="checkbox" name="interests" id="question" value="question">A Question</label>
+
+                        <label for="job"><input type="checkbox" name="interests" id="job" value="job">Selling</label>
+
+                        <label for="previouswork"><input type="checkbox" name="interests" id="previouswork" value="previouswork">Buying</label>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Referral Source</legend>
+                        <label for="reference">How did you find me?</label>
+                        <select name="reference" id="reference">
+                            <option value="Ad">Ad</option>
+                            <option value="linkedin">LinkedIn</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                        <label for="comments">Comments: </label>
+                        <textarea id="comments" name="comments" rows="5" cols="35"></textarea>
+
+                    </fieldset>
+
+                    <input type="submit" id="submit" value="Submit" class="btn">
+
+                </form>
+
+            </div>
+
+        </main>
+
+        <!-- Use the footer are to add a webpage footer -->
+        <footer>
+            <p>&copy; Copyright 2023. All Rights Reserved.</p>
+            <p><a href="mailto:kmalice@kent.edu">kmalice@kent.edu</a></p>
+        </footer>
+
+        </div>
+
+        <script src="scripts/script.js"></script>
+
+</body>
+</html>
